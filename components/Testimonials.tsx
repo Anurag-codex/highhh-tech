@@ -25,26 +25,26 @@ const testimonials = [
 
 const Testimonials: React.FC = () => {
   return (
-    <section className="py-32 bg-white border-t border-gray-50">
+    <section className="py-20 bg-white border-t border-gray-50">
       <div className="max-w-7xl mx-auto px-2">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-start">
           
           {/* Header */}
           <div className="lg:col-span-4">
-            <span className="text-[#4CAF50] font-black text-[10px] uppercase tracking-[0.4em] mb-6 block">
+            <span className="text-[#4CAF50] font-black text-[9px] uppercase tracking-[0.35em] mb-5 block">
               Voices of Trust
             </span>
-            <h2 className="text-5xl md:text-6xl font-black text-black tracking-tighter leading-none mb-8">
+            <h2 className="text-3xl md:text-4xl font-black text-black tracking-tighter leading-tight mb-5">
               WHAT OUR <br />
               <span className="text-[#4CAF50]">CLIENTS</span> SAY
             </h2>
-            <p className="text-gray-400 text-sm font-medium leading-relaxed uppercase tracking-wider max-w-xs">
+            <p className="text-gray-400 text-xs md:text-sm font-medium leading-relaxed uppercase tracking-wider max-w-lg">
               Direct feedback from the industry leaders who have transformed their spaces with our precision-engineered solutions.
             </p>
           </div>
 
           {/* Testimonials List */}
-          <div className="lg:col-span-8 space-y-20">
+          <div className="lg:col-span-8 space-y-12">
             {testimonials.map((t, idx) => (
               <div key={idx} className="group">
                 <div className="flex gap-1 mb-6">
@@ -53,7 +53,7 @@ const Testimonials: React.FC = () => {
                   ))}
                 </div>
                 
-                <blockquote className="text-2xl md:text-3xl font-medium text-black tracking-tight leading-tight mb-8 group-hover:text-[#4CAF50] transition-colors duration-500">
+                <blockquote className="text-lg md:text-xl font-medium text-black tracking-tight leading-tight mb-6 group-hover:text-[#4CAF50] transition-colors duration-500">
                   "{t.content}"
                 </blockquote>
 
@@ -70,7 +70,7 @@ const Testimonials: React.FC = () => {
         </div>
 
         {/* Footer Link */}
-        <div className="mt-32 pt-12 border-t border-gray-50 flex flex-col md:flex-row md:items-center justify-between gap-8">
+          <div className="mt-24 pt-10 border-t border-gray-50 flex flex-col md:flex-row md:items-center justify-between gap-6">
           <div className="flex items-center gap-4">
             <div className="flex -space-x-2">
               {[1, 2, 3].map((i) => (

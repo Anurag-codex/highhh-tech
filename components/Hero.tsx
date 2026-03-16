@@ -6,11 +6,11 @@ interface HeroProps {
 
 const Hero: React.FC<HeroProps> = ({ onStoryClick, onShopClick }) => {
   return (
-    <section className="relative h-[100svh] w-full flex items-center justify-center overflow-hidden bg-white px-4">
+    <section className="relative h-[100svh] w-full flex items-center justify-center overflow-hidden bg-white">
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat transition-transform duration-[10s] ease-out hover:scale-105 pointer-events-none"
         style={{ 
-          backgroundImage: `url('https://images.unsplash.com/photo-1513694203232-719a280e022f?q=80&w=1169&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
+          backgroundImage: `url('https://plus.unsplash.com/premium_photo-1733248818744-17b6c632684f?q=80&w=1121&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')`,
         }}
       />
       
@@ -18,7 +18,7 @@ const Hero: React.FC<HeroProps> = ({ onStoryClick, onShopClick }) => {
       <div className="absolute inset-0 bg-black/10 md:bg-transparent" />
 
       {/* Hero Content - Perfectly Centered */}
-      <div className="relative z-10 w-full max-w-7xl mx-auto flex flex-col items-center justify-center text-center">
+      <div className="relative z-10 w-full max-w-7xl mx-auto px-4 md:px-6 flex flex-col items-center justify-center text-center">
         <div className="max-w-xl flex flex-col items-center">
           {/* Badge */}
           <div className="inline-block mb-4 md:mb-6 bg-white/95 backdrop-blur-md px-4 py-1.5 rounded-none border border-black/5 shadow-sm">

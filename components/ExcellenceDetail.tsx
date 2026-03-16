@@ -23,7 +23,7 @@ const ExcellenceDetail: React.FC = () => {
 
   return (
     <section className="py-24 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           {/* Left: Image with Badge */}
           <div className="relative">

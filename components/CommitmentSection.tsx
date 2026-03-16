@@ -32,7 +32,7 @@ const CommitmentSection: React.FC<CommitmentSectionProps> = ({ onServicesClick }
 
   return (
     <section id="services" className="py-24 bg-[#F1F8F1]">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="text-center mb-16">
           <p className="text-[#4CAF50] font-bold text-[10px] uppercase tracking-widest mb-4">Service Excellence</p>
           <h2 className="text-4xl md:text-5xl font-bold mb-6">

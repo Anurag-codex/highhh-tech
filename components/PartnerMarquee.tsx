@@ -46,7 +46,7 @@ const listItems = [...partners, ...partners];
 return (
 <div className="bg-white py-16 border-y border-gray-100 overflow-hidden">
 
-<div className="max-w-7xl mx-auto px-6 text-center mb-12">
+<div className="max-w-7xl mx-auto px-2 text-center mb-12">
 <p className="inline-block text-[#4CAF50] text-xs uppercase font-bold tracking-[0.4em] border-b-2 border-[#4CAF50]/20 pb-2">
 OUR TRUSTED PARTNERS
 </p>

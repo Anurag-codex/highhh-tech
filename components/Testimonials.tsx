@@ -26,7 +26,7 @@ const testimonials = [
 const Testimonials: React.FC = () => {
   return (
     <section className="py-32 bg-white border-t border-gray-50">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-16 items-start">
           
           {/* Header */}

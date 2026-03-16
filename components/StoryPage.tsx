@@ -31,7 +31,7 @@ const FAQItem: React.FC<{ question: string; answer: string }> = ({ question, ans
 const StoryPage: React.FC<StoryPageProps> = ({ onBack }) => {
   return (
     <div className="pt-32 pb-32 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         
         {/* Navigation */}
         <button 

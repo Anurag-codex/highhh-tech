@@ -45,8 +45,8 @@ const Navbar: React.FC<NavbarProps> = ({ setView, currentView, wishlistCount }) 
         <nav 
           className={`pointer-events-auto flex items-center justify-between transition-all duration-500 ease-in-out w-full max-w-7xl ${
             isDark 
-              ? 'bg-black/95 backdrop-blur-xl py-3 px-6 md:px-8 rounded-full border border-white/10' 
-              : 'bg-white/70 backdrop-blur-md py-4 px-8 rounded-full md:rounded-none border-b border-black/5'
+              ? 'bg-black/95 backdrop-blur-xl py-2 px-2 md:px-3 rounded-full border border-white/10' 
+              : 'bg-white/70 backdrop-blur-md py-3 px-3 rounded-full md:rounded-none border-b border-black/5'
           }`}
         >
           <div className="flex items-center gap-2 cursor-pointer z-[160]" onClick={() => navigate('home')}>
@@ -54,7 +54,7 @@ const Navbar: React.FC<NavbarProps> = ({ setView, currentView, wishlistCount }) 
               HIGH TECH <span className="text-[#4CAF50]">FURNITURE</span>
             </span> */}
             <img
-              src="/public/hightech-logo.png"
+              src="/hightech-logo.png"
               alt="High Tech Furniture"
               // className={`h-12 md:h-14 h-8 md:h-8 mb-[10px] ${isDark ? "brightness-0 invert" : ""}`}
               className={`h-8 md:h-14 mb-[10px] ${isDark ? "brightness-0 invert sepia hue-rotate-[90deg] saturate-[6]" : ""}`}
@@ -131,7 +131,7 @@ const Navbar: React.FC<NavbarProps> = ({ setView, currentView, wishlistCount }) 
               HIGH TECH <span className="text-[#4CAF50]">FURNITURE</span>
             </span> */}
             <img
-              src="/public/hightech-logo.png"
+              src="/hightech-logo.png"
               alt="High Tech Furniture"
               // className={`h-12 md:h-14 h-8 md:h-8 mb-[10px] ${isDark ? "brightness-0 invert" : ""}`}
               className={`h-8 md:h-14 mb-[10px] ${isDark ? "brightness-0 invert sepia hue-rotate-[90deg] saturate-[6]" : ""}`}

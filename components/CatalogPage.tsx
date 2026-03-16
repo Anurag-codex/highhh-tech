@@ -457,7 +457,7 @@ const CatalogPage: React.FC<CatalogPageProps> = ({ onBack, initialFilter = 'All'
 
   return (
     <div className="pt-24 md:pt-36 pb-32 min-h-screen bg-white relative">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         
         {/* Breadcrumb & Navigation */}
         <div className="mb-10 md:mb-16">

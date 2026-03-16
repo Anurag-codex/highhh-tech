@@ -66,7 +66,7 @@ const collections = [
 const CollectionsGrid: React.FC<CollectionsGridProps> = ({ onExplore }) => {
   return (
     <section id="collections" className="py-24 bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         
         {/* Header Section */}
         <div className="flex flex-col items-center text-center mb-24">

@@ -23,7 +23,7 @@ interface ShopByRoomProps {
 const ShopByRoom: React.FC<ShopByRoomProps> = ({ onRoomClick }) => {
   return (
     <section className="py-24 bg-white overflow-hidden">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="text-center mb-16">
           <h2 className="text-3xl md:text-5xl font-black text-black tracking-tighter uppercase mb-4">
             Shop by room

@@ -16,7 +16,7 @@ const WishlistPage: React.FC<WishlistPageProps> = ({ onBack, wishlist, onToggleW
 
   return (
     <div className="pt-24 md:pt-36 pb-32 min-h-screen bg-white">
-      <div className="max-w-7xl mx-auto px-6">
+      <div className="max-w-7xl mx-auto px-2">
         <div className="mb-10 md:mb-16">
           <button 
             onClick={onBack}

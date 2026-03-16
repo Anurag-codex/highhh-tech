@@ -41,12 +41,12 @@ const Navbar: React.FC<NavbarProps> = ({ setView, currentView, wishlistCount }) 
 
   return (
     <>
-      <div className="fixed top-0 left-0 right-0 z-[150] flex justify-center p-4 md:p-6 pointer-events-none">
+      <div className="fixed top-0 left-0 right-0 z-[150] flex justify-center p-3 md:p-4 lg:p-6 pointer-events-none">
         <nav 
           className={`pointer-events-auto flex items-center justify-between transition-all duration-500 ease-in-out w-full max-w-7xl ${
             isDark 
-              ? 'bg-black/95 backdrop-blur-xl py-2 px-2 md:px-3 rounded-full border border-white/10' 
-              : 'bg-white/70 backdrop-blur-md py-3 px-3 rounded-full md:rounded-none border-b border-black/5'
+              ? 'bg-black/70 backdrop-blur-2xl py-3 px-4 md:px-6 rounded-full border border-white/20 shadow-xl shadow-black/40' 
+              : 'bg-white/70 backdrop-blur-md py-4 px-6 rounded-full md:rounded-none border-b border-black/5'
           }`}
         >
           <div className="flex items-center gap-2 cursor-pointer z-[160]" onClick={() => navigate('home')}>
@@ -57,12 +57,12 @@ const Navbar: React.FC<NavbarProps> = ({ setView, currentView, wishlistCount }) 
               src="/hightech-logo.png"
               alt="High Tech Furniture"
               // className={`h-12 md:h-14 h-8 md:h-8 mb-[10px] ${isDark ? "brightness-0 invert" : ""}`}
-              className={`h-8 md:h-14 mb-[10px] ${isDark ? "brightness-0 invert sepia hue-rotate-[90deg] saturate-[6]" : ""}`}
+              className={`h-6 md:h-8 lg:h-10 mb-[6px] md:mb-[8px] lg:mb-[10px] ${isDark ? "brightness-0 invert sepia hue-rotate-[90deg] saturate-[6]" : ""}`}
             />
           </div>
 
           {/* Desktop Menu */}
-          <div className="hidden lg:flex items-center gap-10">
+          <div className="hidden lg:flex items-center gap-6 md:gap-8 lg:gap-10">
             {['home', 'catalog', 'story', 'services', 'wishlist'].map((v) => (
               <button 
                 key={v}
@@ -81,10 +81,10 @@ const Navbar: React.FC<NavbarProps> = ({ setView, currentView, wishlistCount }) 
             ))}
           </div>
 
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 md:gap-4">
             <button 
               onClick={() => navigate('inquiry')}
-              className={`hidden sm:block transition-all duration-300 font-black text-[9px] tracking-[0.3em] uppercase px-6 py-2.5 rounded-full ${
+              className={`hidden sm:block transition-all duration-300 font-black text-[9px] tracking-[0.3em] uppercase px-4 md:px-6 py-2.5 rounded-full ml-4 md:ml-6 ${
                 isDark ? 'bg-[#4CAF50] text-white' : 'bg-black text-white'
               }`}
             >
